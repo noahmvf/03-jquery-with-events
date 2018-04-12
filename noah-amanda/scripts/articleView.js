@@ -90,4 +90,5 @@ articleView.setTeasers = function() {
 $(document).ready(function() {
   articleView.populateFilters();
   articleView.handleAuthorFilter();
+  articleView.handleCategoryFilter();
 })
